@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="taxoparktest" verbose = "1">
+
+    <test name="Test: Comparator: ">
+        <classes>
+            <class name="com.epam.taxoparktest.ComparatorTests" />
+        </classes>
+    </test>
+
+    <test name="Test: Filtering">
+        <classes>
+            <class name="com.epam.taxoparktest.FilteringTests" />
+        </classes>
+    </test>
+
+    <test name="Test: DB connection: ">
+        <classes>
+            <class name="com.epam.taxoparktest.DBConnectionTests" />
+        </classes>
+    </test>
+
+</suite>
